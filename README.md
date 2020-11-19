@@ -1,1 +1,1 @@
-# ShoeCalendar
+# ShoesCalendar
