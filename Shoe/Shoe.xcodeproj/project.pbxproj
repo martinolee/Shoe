@@ -13,6 +13,7 @@
 		72394A16258CFBE400B8E697 /* ShoeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72394A15258CFBE400B8E697 /* ShoeTests.swift */; };
 		72394A21258CFBE400B8E697 /* ShoeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72394A20258CFBE400B8E697 /* ShoeUITests.swift */; };
 		72394A65258D016700B8E697 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72394A64258D014C00B8E697 /* MainView.swift */; };
+		72394A76258D022C00B8E697 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72394A75258D022C00B8E697 /* HomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		72394A20258CFBE400B8E697 /* ShoeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoeUITests.swift; sourceTree = "<group>"; };
 		72394A22258CFBE400B8E697 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		72394A64258D014C00B8E697 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		72394A75258D022C00B8E697 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -174,8 +176,17 @@
 			isa = PBXGroup;
 			children = (
 				72394A64258D014C00B8E697 /* MainView.swift */,
+				72394A6F258D01E700B8E697 /* Home */,
 			);
 			path = Main;
+			sourceTree = "<group>";
+		};
+		72394A6F258D01E700B8E697 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				72394A75258D022C00B8E697 /* HomeView.swift */,
+			);
+			path = Home;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -307,6 +318,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				72394A76258D022C00B8E697 /* HomeView.swift in Sources */,
 				72394A04258CFBE300B8E697 /* ShoeApp.swift in Sources */,
 				72394A65258D016700B8E697 /* MainView.swift in Sources */,
 			);
