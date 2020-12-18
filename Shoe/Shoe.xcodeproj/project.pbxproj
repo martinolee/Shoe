@@ -16,6 +16,7 @@
 		72394A76258D022C00B8E697 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72394A75258D022C00B8E697 /* HomeView.swift */; };
 		72394A7F258D031100B8E697 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72394A7E258D031100B8E697 /* SearchView.swift */; };
 		72394A85258D035A00B8E697 /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72394A84258D035A00B8E697 /* CalendarView.swift */; };
+		72394AA6258D095500B8E697 /* MainView+Tab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72394AA5258D095500B8E697 /* MainView+Tab.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		72394A75258D022C00B8E697 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		72394A7E258D031100B8E697 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
 		72394A84258D035A00B8E697 /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
+		72394AA5258D095500B8E697 /* MainView+Tab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MainView+Tab.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -179,6 +181,7 @@
 		72394A5B258D00B900B8E697 /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				72394AA4258D094A00B8E697 /* Models */,
 				72394A64258D014C00B8E697 /* MainView.swift */,
 				72394A6F258D01E700B8E697 /* Home */,
 				72394A7D258D02F900B8E697 /* Search */,
@@ -209,6 +212,14 @@
 				72394A84258D035A00B8E697 /* CalendarView.swift */,
 			);
 			path = Calendar;
+			sourceTree = "<group>";
+		};
+		72394AA4258D094A00B8E697 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				72394AA5258D095500B8E697 /* MainView+Tab.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -342,6 +353,7 @@
 			files = (
 				72394A85258D035A00B8E697 /* CalendarView.swift in Sources */,
 				72394A7F258D031100B8E697 /* SearchView.swift in Sources */,
+				72394AA6258D095500B8E697 /* MainView+Tab.swift in Sources */,
 				72394A76258D022C00B8E697 /* HomeView.swift in Sources */,
 				72394A04258CFBE300B8E697 /* ShoeApp.swift in Sources */,
 				72394A65258D016700B8E697 /* MainView.swift in Sources */,
