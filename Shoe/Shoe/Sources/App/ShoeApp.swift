@@ -7,11 +7,12 @@
 
 import SwiftUI
 
+
 @main
 struct ShoeApp: App {
   var body: some Scene {
     WindowGroup {
-      Text("Hello, World!")
+      MainView()
     }
   }
 }

@@ -12,6 +12,7 @@
 		72394A0B258CFBE400B8E697 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72394A0A258CFBE400B8E697 /* Preview Assets.xcassets */; };
 		72394A16258CFBE400B8E697 /* ShoeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72394A15258CFBE400B8E697 /* ShoeTests.swift */; };
 		72394A21258CFBE400B8E697 /* ShoeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72394A20258CFBE400B8E697 /* ShoeUITests.swift */; };
+		72394A65258D016700B8E697 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72394A64258D014C00B8E697 /* MainView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,7 @@
 		72394A1C258CFBE400B8E697 /* ShoeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShoeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		72394A20258CFBE400B8E697 /* ShoeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoeUITests.swift; sourceTree = "<group>"; };
 		72394A22258CFBE400B8E697 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		72394A64258D014C00B8E697 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,6 +149,7 @@
 			isa = PBXGroup;
 			children = (
 				72394A36258CFC7F00B8E697 /* App */,
+				72394A5A258D00B200B8E697 /* Screens */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -157,6 +160,22 @@
 				72394A03258CFBE300B8E697 /* ShoeApp.swift */,
 			);
 			path = App;
+			sourceTree = "<group>";
+		};
+		72394A5A258D00B200B8E697 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				72394A5B258D00B900B8E697 /* Main */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		72394A5B258D00B900B8E697 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				72394A64258D014C00B8E697 /* MainView.swift */,
+			);
+			path = Main;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -289,6 +308,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				72394A04258CFBE300B8E697 /* ShoeApp.swift in Sources */,
+				72394A65258D016700B8E697 /* MainView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
