@@ -17,7 +17,7 @@ extension MainView {
 }
 
 extension MainView.Tab {
-  var title: String {
+  var title: LocalizedStringKey {
     switch self {
     case .home:
       return "home"
