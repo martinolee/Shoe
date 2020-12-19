@@ -1,0 +1,12 @@
+/* 
+  Localizable.strings
+  Shoe
+
+  Created by Soohan Lee on 2020/12/19.
+  
+*/
+
+
+"home" = "홈";
+"search" = "검색";
+"calendar" = "달력";
